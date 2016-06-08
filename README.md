@@ -1,16 +1,16 @@
 # CamView
 
-	This software provides a simple gui to capture images on a webcam using PyQt4 and OpenCV3.
+This software provides a simple gui to capture images on a webcam using PyQt4 and OpenCV3.
 
-	It also enables the user to use 'Canny Edge' detection on the images captured.
+It also enables the user to use 'Canny Edge' detection on the images captured.
 
-	All captured and processed images are automatically saved to separate directories on ~/Pictures/CamView. The directories will be created if they do not exist. It is assumed the software will be run on a Linux system.
+All captured and processed images are automatically saved to separate directories on ~/Pictures/CamView. The directories will be created if they do not exist. It is assumed the software will be run on a Linux system.
 
 # Capture Section
 
-	The capture section is design to work similar to a point-and-shoot camera:
+The capture section is design to work similar to a point-and-shoot camera:
 
-	By pressing the 'Save' button, it saves the captured image to the designated folder. An image index is appended to the end of each of the new images saved.
+By pressing the 'Save' button, it saves the captured image to the designated folder. An image index is appended to the end of each of the new images saved.
 
 # Canny Edge Detection Section
 
