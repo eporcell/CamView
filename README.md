@@ -12,9 +12,11 @@ The capture section is design to work similar to a point-and-shoot camera:
 
 By pressing the 'Save' button, it saves the captured image to the designated folder. An image index is appended to the end of each of the new images saved.
 
-# Canny Edge Detection Section
+# Edge Detection Section
 
-	I'll update this as I have time...
+Detect Edges button - performs Canny Edge detection according to the parameters indicated by Kernel Size, Std Deviation, Threshold 1 & 2.
+
+Auto Detect button - automatically calculates thresholds 1 and 2 using the Sigma parameter.
 
 For future use:
 
